@@ -1,0 +1,54 @@
+- During this project, I gained practical experience in setting up and working with a controlled cybersecurity laboratory environment.
+
+- I learned how to use Kali Linux as an attacker/security testing machine and DVWA (Damn Vulnerable Web Application) as a deliberately vulnerable target. The lab helped me understand how different cybersecurity tools can be used together for network and web application security analysis.
+
+## Network Configuration
+
+- I learned how to configure virtual machines using NAT and Host-Only network adapters. The Host-Only network allowed Kali Linux and DVWA to communicate within an isolated environment.
+
+- I also used the ping utility to verify connectivity between the attacker and target systems.
+
+## Nmap
+
+- I used Nmap to perform basic network reconnaissance and service enumeration.
+
+- The command used in the project was:
+
+            nmap -sV <DVWA-IP>
+
+- Through the scan, I identified the target host and detected an HTTP service running on port 80.
+
+## Burp Suite
+
+- I configured Burp Suite as an intercepting proxy between the browser and DVWA.
+
+- This helped me understand how HTTP requests and responses travel between a web browser and a web application. I also learned how to inspect request and response headers.
+
+## Wireshark
+
+- I used Wireshark to capture and analyze network traffic between Kali Linux and DVWA.
+
+--> Capture network packets
+--> Filter TCP and HTTP traffic
+--> Identify source and destination IP addresses
+--> Examine protocol information
+--> Analyze individual packets
+--> Practical Skills Developed
+
+### Through this project, I developed practical knowledge of:
+
+- Virtual machine deployment
+- Network configuration
+- Network troubleshooting
+- Port scanning
+- Service enumeration
+- HTTP traffic interception
+- Packet capture
+- Network traffic analysis
+- Cybersecurity lab setup
+
+### Key Takeaway
+
+This project helped me connect theoretical cybersecurity concepts with practical tools and techniques. Working with Kali Linux, DVWA, Nmap, Burp Suite, and Wireshark gave me hands-on experience with network reconnaissance, web traffic analysis, and packet inspection in a controlled laboratory environment.
+
+The project also helped me understand the importance of performing security testing in an isolated and authorized environment.
